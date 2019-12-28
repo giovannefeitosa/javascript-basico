@@ -1,0 +1,9 @@
+{
+  "name": "javascript-basico",
+  "version": "1.0.0",
+  "description": "Guia com snippets para facilitar o estudo de javascript básico",
+  "main": "README.md",
+  "repository": "https://github.com/shakegioh/javascript-basico.git",
+  "author": "Giovanne <giovanneafonso@gmail.com>, Patrik <patrikmatos.tecinfo@gmail.com>",
+  "license": "MIT"
+}
