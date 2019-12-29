@@ -28,4 +28,35 @@ let array = [
 
 ```
 
+## Termos usados
 
+### Declaração de variável ou função
+
+> Quando você ver a palavra "declaração", significa a criação de uma variável ou função.
+
+Exemplo:
+
+```javascript
+// Declaração de variável
+// + atribuição de valor
+var nome = 'Patrik';
+
+// Declaração de função
+function digaMeuNome() {
+  console.log('Meu nome é: ', nome);
+}
+```
+
+### Atribuição
+
+> Atribuir significa dar um valor à uma variável, exemplo:
+
+```javascript
+// Declaração de variáveis
+var idade;
+var nome;
+
+// Atribuição de valores
+idade = 12;
+nome = 'Cadú';
+```
