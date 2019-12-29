@@ -15,8 +15,8 @@ Alguns operadores são mais usados que outros, como nós estamos aprendendo o b�
 ### Comparações
 
 ```javascript
-a > b
-a < b
+a > b < c
+a >= b <= c
 ```
 
 ### Cálculos
@@ -60,3 +60,77 @@ Explicando melhor a diferença:
 '' === false
 'teste' === true
 ```
+
+### Truthy e Falsy
+
+- Truthy significa que o valor passaria num if como true
+- Falsy significa que não passaria no if
+
+**Exemplos de truthy:**
+
+```javascript
+const qtdLaranjas = 4; // truthy
+const qtdUvas = 0; // falsy
+const nome = 'Juliana'; // truthy
+const strVazia = ''; // falsy
+const arr = []; // truthy
+const obj = {} // truthy
+
+// --- Outros falsys
+
+- null
+- undefined
+- ''
+- 0
+
+// --- Exemplos
+
+if (nome) {
+  // Truthy vai passar e chegar aqui
+  console.log('Você tem um nome');
+}
+
+if (qtdLaranjas) {
+  // Passou no if
+}
+
+if (qtdUvas) {
+  // REPROVOU no if
+} else {
+  // Chegou aqui!
+}
+```
+
+### STRICT
+
+> Strict = estrito.
+
+Estrito significa que o tipo da variável deve ser exatamente igual para ser `true`.
+
+Ou seja:
+
+```javascript
+// Normal
+if (0 == '0') true;
+
+// Strict
+if (0 === '0') false;
+if (0 !== '0') true;
+```
+
+### Negação
+
+O operador `!` transforma um valor em boolean, e retorna o contrário dele.
+
+> Quando você ver dois `!!` significa que apenas queremos tranformar um parâmetro em boolean, sem alterar a propriedade "truthy" ou "falsy" dele.
+
+> IMPORTANTE: A negação primeiramente transforma o valor em `true` ou `false` baseado no seu "valor truthy ou falsy" explicado acima.
+
+```javascript
+let numero = 10;
+
+!numero === false
+!!numero === true
+```
+
+
