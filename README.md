@@ -5,7 +5,7 @@ Uma coleção com alguns snippets e lembretes legais pra quem está começando a
 ## Funcionalidades
 
 - [Variáveis](./docs/core/Variaveis.md)
-- [Condicionais](./docs/core/Condicionais.md)
+- [Condicionais](./docs/core/Condicionais.md) *
 - [Operadores](./docs/core/Operadores.md)
-- Loops
-- [Funções](./docs/core/Funcoes.md)
+- [Loops](./docs/core/Loops.md) *
+- [Funções](./docs/core/Funcoes.md) *
